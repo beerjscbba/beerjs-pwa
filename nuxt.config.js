@@ -48,6 +48,12 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
+      name: 'Beerjs Cocha',
+      short_name: 'beerjscbba',
+      description: 'Para todos los amantes de js',
+      display: 'standalone',
+      background_color: '#f9d619',
+      theme_color: 'cyan',
       lang: 'en'
     }
   },
